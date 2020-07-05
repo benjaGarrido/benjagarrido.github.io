@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* GENERALES */
+html, body, div { 
+	margin:0; 
+	padding:0; 
+	border:0; 
+}
+body {
+	font-family:Helvetica,Geneva,Arial,SunSans-Regular,sans-serif;
+	font-size:12px;
+}
+body p {
+	color:#999999;
+}
+acronym {
+	border-bottom: none;
+}
+
+/* CONTAINER */
+#container { 
+	width:950px; 
+	margin:auto;
+}
+ 
+/* HEADER */
+#header {
+	width:950px; 
+	margin:auto;
+}
+#header h1 { 
+	font-family: Geneva; 
+	font-size:28px;
+	text-align:right;
+	text-decoration:underline;
+}
+
+/* FOOTER */
+#footer {
+	float:right;
+}
+#footer a {
+	text-decoration:none;
+	/*color:red;*/
+}
+
+/* MENU */
+#menu {
+	float:left; 
+	margin-right:10px; 
+	width:190px;
+} 
+#menu ul{
+	float:left;
+	padding:0;
+}
+#menu li {
+	padding:5px 0 0;
+	list-style-type:none;
+}
+#menu ul li a {
+	color: #000;
+}
+#menu ul li ol a {
+	color: #999999;
+	text-decoration:none;
+}
+#menu li ol {
+	display:block;
+}
+
+/* CONTENT */
+#content {
+	float:right; 
+	width:750px;
+}
+#content ol, ul {
+	display:block;
+}
+#content ol li {
+	color:#999999;
+}
+#content ul li {
+	color:#999999;
+}
+
+/* RESUMEN */
+#resume {
+	background-color:#FF9;
+	border:1px solid #CCC;
+	margin:0 0 10px;
+}
+
+/* MARCADO */
+.marcado {
+	background-color:#F5F5F5;
+	list-style:none outside none;
+	margin:0 0 10px;
+	padding:10px;
+}
+.marcado img {
+	float:right;
+}	
+
+/* SIN */
+.sin {
+	padding:0;
+}
+
+/* UP */
+.up {
+	background-color:red;
+	color:#FFFFFF;
+}
+
+/* NEGRO */
+.negro {
+	color:black;
+}
+
+/* FORMULARIO */
+form {
+	padding:20px;
+	width:400px;
+	margin:auto
+}
+fieldset {
+	border:2px solid #BBBBBB;
+	padding:20px;
+}
+legend {
+	background:none repeat scroll 0 0 #999999;
+	color:#FFF;
+	padding:5px 10px;
+}
+label {
+	color:#999999;
+	display:block;
+	height:30px;
+}
+
+/* PAGINA */
+.pagina {
+	color:#999999;
+	clear:both;
+}
+.pagina h3 {
+	background-color:#090;
+	color:#FFF;
+	clear:both;
+}
+.pagina img {
+	margin:15px 0px 15px 0px;
+}
+.pagina ul {
+	margin:0px 0px 0px 12px;
+	padding:0px;
+	list-style-type: square;
+	clear:both;
+}
+.izquierda{
+	float:left;
+	text-align:left;
+}
+.derecha{
+	float:right;
+	text-align:right;
+}
+.numero{
+	text-align:right;
+	color: #F00;
+}
+.verde {
+	color:#090;
+}
+.bordes{
+	padding:15px 0px;
+	border-bottom:2px solid #F00;
+	border-top:2px solid #F00;
+	text-align:center;
+	width:320px;
+	margin-left:220px;
+}
+.cian {
+	background:none repeat scroll 0 0 cyan;
+}
+.encabezado {
+	background-color:black;
+	color:#FFF;
+}
+.cuartos {
+	border-bottom:1px solid #000;
+	font-style:italic;
+}
+.mano:hover{
+	cursor:pointer;
+	color:blue;
+}
+.tabla {
+	text-align:center;
+	margin-top:30px;
+	border-collapse:collapse;
+	width:100%;
+	clear:both;
+}
+.pagina .subtitulo {
+	background-color:#FFF;
+	color:green;
+	border-bottom:1px solid green;
+}
+.centrado {
+	text-align:center;
+}
+caption {
+	background-color:#FFF;
+	color:green;
+	text-align:left;
+}
+table {
+	margin:15px 0px;
+}
+.sinformato li{
+	list-style-type:none;
+}
